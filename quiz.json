@@ -1,0 +1,32 @@
+[
+{
+    "question": "What is the largest organ in the human body?",
+    "options": ["Liver", "Skin", "Brain"],
+    "correct": "Skin",
+    "image": "./images/bio.jpg"
+},
+{
+    "question": "What is the chemical symbol for gold?",
+    "options":["Au", "Ag","Gd"],
+    "correct": "Au",
+    "image": "./images/chem.jpg"
+},
+{
+    "question": "Which bird is known for its incredible memory and problem-solving skills?",
+    "options": ["Crow", "Parrot", "Eagle"],
+    "correct": "Crow",
+    "image": "./images/brain.jpg"
+},
+{
+    "question": "What is a group of crows called?",
+    "options": ["A swarm", "A murder", "A flock"],
+    "correct": "A murder",
+    "image": "./images/crow.jpg"
+},
+{
+    "question": "Which country is made up of 7,000 islands?",
+    "options": ["The Philippines", "Indonesia", "Sweden"],
+    "correct": "The Philippines",
+    "image": "./images/fact.jpg"
+}
+]

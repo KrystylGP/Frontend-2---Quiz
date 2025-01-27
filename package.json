@@ -1,0 +1,17 @@
+{
+    "name": "frontend-quiz",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "build:css": "npx tailwindcss -i ./style.css -o ./dist/style.css --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^10.4.0",
+        "daisyui": "^3.9.4",
+        "postcss": "^8.4.0",
+        "tailwindcss": "^3.0.0"
+    }
+}

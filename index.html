@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quiz</title>
+    <!-- Länk till extern CSS-fil -->
+    <link rel="stylesheet" href="./dist/styles.css">
+
+<body>
+    <!-- Header -->
+    <header class="header bg-gradient-to-r from-blue-500 to-purple-600 text-white p-6 text-center shadow-lg">
+        <h1 class="text-4xl font-extrabold tracking-wide">Trivia Quiz</h1>
+    </header>    
+    <!-- Hero-section -->
+    <section class="hero min-h-screen text-white">
+        <div class="hero-overlay bg-opacity-70 bg-black"></div>
+        <div class="hero-content flex flex-col items-center text-center">
+            <h2 class="text-5xl font-bold">Think You Know It All?</h2>
+            <button id="startHeroButton" class="btn btn-primary animate-bounce mt-6">Let's Play!</button>
+        </div>
+    </section>        
+    <!-- Quiz-section -->
+    <section id="quizSection" class="hidden"> 
+        <div id="quizContainer" class="mt-10 mx-auto max-w-xl"></div>
+    </section>    
+    <!-- Injectar JS-kod till index -->
+    <script src="app.js"></script>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Krystyl Geraldizo Poblete</p>
+    </footer>
+
+</body>
+</html>
